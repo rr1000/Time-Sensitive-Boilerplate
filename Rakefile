@@ -6,16 +6,11 @@ task :build do
 end
 
 desc "Run middleman server"
-task :preview do
+task :run do
   system("middleman server")
 end
 
 desc "Watch and compress Sass"
 task :sass do
   system("cd source/assets/css && sass --watch styles.scss:styles.css --style compressed")
-end
-
-desc "Build Static Site"
-task :sass do
-  system("middleman build")
 end
