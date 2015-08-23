@@ -1,6 +1,5 @@
 desc "Build the site from source to build"
 task :build do
-  puts "## Building website"
   status = system("middleman build --clean")
   puts status ? "OK" : "FAILED"
 end

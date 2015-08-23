@@ -14,4 +14,3 @@ This boilerplate contains Middleman, Rake, Sass, Syntax highlighting and many ot
 **Build from source:**
 
 - `$ rake build`
-
